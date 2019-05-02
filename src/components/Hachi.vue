@@ -1,6 +1,6 @@
 <template>
     <div>
-    <b-container class="bv-example-row">
+    <b-container class="mt-3">
       <b-carousel
         id="carousel-fade"
         style="text-shadow: 0px 0px 2px #000"

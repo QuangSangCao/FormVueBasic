@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-  <div id="Form">
+  <div id="Form" class="mt-3">
     <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
       <label for="email">Email Address</label>
       <input type="text" id="email" class="form-control" v-model="userData.email">

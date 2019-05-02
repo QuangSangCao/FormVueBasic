@@ -3,11 +3,11 @@
     <!-- User Interface controls -->
     <b-row>
       <b-col md="6" class="my-1">
-        <b-form-group label-cols-sm="3" label="Search" class="mb-0">
-          <b-input-group>
-            <b-form-input v-model="filter" placeholder="Type to Search"></b-form-input>
+        <b-form-group label-cols-sm="0"  class="mb-0" >
+          <b-input-group >
+            <b-form-input style="margin-top: 5px;" v-model="filter" placeholder="Type to Search"></b-form-input>
             <b-input-group-append>
-              <b-button :disabled="!filter" @click="filter = ''">Clear</b-button>
+              <b-button style="margin: 0 12px;" :disabled="!filter" @click="filter = ''">Clear</b-button>
             </b-input-group-append>
           </b-input-group>
         </b-form-group>
