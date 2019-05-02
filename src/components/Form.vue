@@ -73,7 +73,7 @@ export default {
           {text : 'Female',value :"Female"}
       ],
       message: "Review.....",
-      radioOption: "Male",
+     
       isSubmitted: false
     };
   },

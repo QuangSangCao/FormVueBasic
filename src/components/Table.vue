@@ -3,7 +3,7 @@
     <!-- User Interface controls -->
     <b-row>
       <b-col md="6" class="my-1">
-        <b-form-group label-cols-sm="3" label="Filter" class="mb-0">
+        <b-form-group label-cols-sm="3" label="Search" class="mb-0">
           <b-input-group>
             <b-form-input v-model="filter" placeholder="Type to Search"></b-form-input>
             <b-input-group-append>
@@ -68,7 +68,7 @@ export default {
       totalRows: 1,
       currentPage: 1,
       perPage: 5,
-      pageOptions: [5, 10, 15],
+      pageOptions: [5, 10, 15,20,50],
       sortBy: null,
       sortDesc: false,
       sortDirection: "asc",

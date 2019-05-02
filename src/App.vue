@@ -1,22 +1,17 @@
 <template>
-  <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <Form />
-    <Table />
-  </div>
+   <div class="container">
+                <router-view name="header-top"></router-view>
+                <router-view></router-view>
+                <router-view name="header-bottom"></router-view>
+    </div>
 </template>
 
 <script>
-// import Form from './components/Form'
-import Table from './components/Table'
+import Header from './components/Header.vue'
 
 export default {
-  name: 'app',
-  components: {
-    // Form
-    Table
-  }
-}
+  
+};
 </script>
 
 <style>
