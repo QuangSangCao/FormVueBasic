@@ -19,7 +19,7 @@
         </b-form-group>
       </b-col>
     </b-row>
-
+  
     <!-- Main table element -->
     <b-table
       show-empty

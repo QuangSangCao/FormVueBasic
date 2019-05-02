@@ -1,28 +1,23 @@
 <template>
   <!-- Footer -->
-  <mdb-footer color="stylish-color-dark" class="page-footer font-small pt-4 mt-4">
-   
-    <div class="text-center py-3">
-      <ul class="list-unstyled list-inline mb-0">
-        <li class="list-inline-item">
-          <h5 class="mb-1">Register for free</h5>
-        </li>
-        <li class="list-inline-item"><a href="#" class="btn btn-danger btn-rounded">Sign up!</a></li>
-      </ul>
-    </div>
-    <hr />
-    <div class="text-center">
-      <ul class="list-unstyled list-inline">
-        <li class="list-inline-item"><a class="btn-floating btn-sm btn-fb mx-1"><i class="fab fa-facebook"></i></a></li>
-        <li class="list-inline-item"><a class="btn-floating btn-sm btn-tw mx-1"><i class="fab fa-twitter"> </i></a></li>
-        <li class="list-inline-item"><a class="btn-floating btn-sm btn-gplus mx-1"><i class="fab fa-google-plus"> </i></a></li>
-        <li class="list-inline-item"><a class="btn-floating btn-sm btn-li mx-1"><i class="fab fa-linkedin-in"> </i></a></li>
-        <li class="list-inline-item"><a class="btn-floating btn-sm btn-dribbble mx-1"><i class="fab fa-dribbble"> </i></a></li>
-      </ul>
-    </div>
+  <mdb-footer color="info-color" class="font-small pt-0">
+    <mdb-container>
+      <mdb-row>
+        <mdb-col md="12">
+          <div class="mb-5 flex-center">
+            <a class="fb-ic"  href="https://www.facebook.com/"><i class="fab fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
+            <a class="tw-ic"  href="https://twitter.com/?lang=vi"><i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
+            <a class="gplus-ic" href="https://accounts.google.com/"><i class="fab fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
+            <a class="li-ic" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
+            <a class="ins-ic"  href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
+            <a class="pin-ic"  href="https://www.pinterest.com/"><i class="fab fa-pinterest fa-lg white-text fa-2x"> </i></a>
+          </div>
+        </mdb-col>
+      </mdb-row>
+    </mdb-container>
     <div class="footer-copyright text-center py-3">
       <mdb-container fluid>
-        &copy; 2018 Copyright: <a href="https://www.MDBootstrap.com"> Footer </a>
+        &copy; 2019 Copyright <a href="https://www.MDBootstrap.com">  </a>
       </mdb-container>
     </div>
   </mdb-footer>
@@ -41,7 +36,6 @@
     }
   }
 </script>
-
 <style>
 
 </style>
