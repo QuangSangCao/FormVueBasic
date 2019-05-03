@@ -1,9 +1,10 @@
 <template>
-  <div>
+  <div class="mt-4">
     
     <h3>User Id : {{$route.params.id}}</h3>
     <p>Name : {{activeUser.name}}</p>
     <p>Phone : {{activeUser.phone}}</p>
+    <p><router-link to="/user">Back</router-link></p>
   </div>
 </template>
 

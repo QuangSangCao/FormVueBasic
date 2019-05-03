@@ -7,7 +7,7 @@
           <b-input-group >
             <b-form-input style="margin-top: 5px;" v-model="filter" placeholder="Type to Search"></b-form-input>
             <b-input-group-append>
-              <b-button style="margin: 0 12px;" :disabled="!filter" @click="filter = ''">Clear</b-button>
+              <b-button style="margin: 0 12px; width: 125px; padding: 0px" :disabled="!filter" @click="filter = ''">Clear</b-button>
             </b-input-group-append>
           </b-input-group>
         </b-form-group>
@@ -43,12 +43,11 @@
     </b-table>
 
     <b-row>
-      <b-col md="6" class="my-1">
+      <b-col >
         <b-pagination
           v-model="currentPage"
           :total-rows="totalRows"
           :per-page="perPage"
-          class="my-0"
         ></b-pagination>
       </b-col>
     </b-row>

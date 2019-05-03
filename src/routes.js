@@ -6,6 +6,8 @@ import User from './components/User.vue';
 import UserDetail from './components/UserDetail.vue';
 import NotFound from './components/NotFound.vue';
 import Footer from './components/Footer.vue';
+import Register from './components/Register.vue';
+import Login from './components/Login.vue';
 
 export const routes = [
   {
@@ -15,8 +17,10 @@ export const routes = [
       default: Form,
       'header-top': Header,
       'header-bottom' : Footer
+    },
+    meta: {
+      requiresAuth: true
     }
-
   },
   {
     path: '/table',
@@ -38,9 +42,26 @@ export const routes = [
       'header-bottom' : Footer
     }
   },
+ 
   {
     path: '/user', components: {
       default: User,
+      'header-top': Header,
+      'header-bottom' : Footer
+      
+    }
+  },
+  {
+    path: '/register', components: {
+      default: Register,
+      'header-top': Header,
+      'header-bottom' : Footer
+      
+    }
+  },
+  {
+    path: '/login', components: {
+      default: Login,
       'header-top': Header,
       'header-bottom' : Footer
       

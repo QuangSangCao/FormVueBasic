@@ -11,7 +11,7 @@
         @sliding-start="onSlideStart"
         @sliding-end="onSlideEnd"
       >
-       <b-carousel-slide img-src="https://picsum.photos/id/196/2048/1536"></b-carousel-slide>
+       <b-carousel-slide img-src="https://picsum.photos/id/1018/3914/2935"></b-carousel-slide>
 
       <b-carousel-slide  img-src="https://picsum.photos/id/1011/5472/3648"></b-carousel-slide>
 
